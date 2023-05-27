@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <OutputType>Exe</OutputType>
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Bunkum" Version="3.2.0" />
-      <PackageReference Include="Profanity.Detector" Version="0.1.8" />
+      <ProjectReference Include="..\Bunkum.ProfanityFilter\Bunkum.ProfanityFilter.csproj" />
     </ItemGroup>
 
 </Project>
