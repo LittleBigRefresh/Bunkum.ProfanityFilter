@@ -33,7 +33,7 @@
     </Target>
 
     <ItemGroup>
-      <PackageReference Include="Bunkum" Version="3.3.13" />
+      <PackageReference Include="Bunkum" Version="3.3.15" />
       <PackageReference Include="Profanity.Detector" Version="0.1.8" />
     </ItemGroup>
 
